@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+
+html,
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Хедер */
+
+.header__inner {
+  background-color: #f7f7f7;
+}
+.header__container {
+  width: 935px;
+  margin: 0 auto;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+}
+.logo__text {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #000;
+}
+.logo__text--red {
+  color: #ff0000;
+}
+
+.header-login {
+  display: flex;
+  height: 73px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #555555;
+  line-height: 73px;
+  text-align: center;
+}
+
+.header-login__join {
+  border: 1px solid #ebeaea;
+  text-decoration: none;
+  width: 66px;
+  height: 100%;
+  background-color: #eeeeee;
+  color: inherit;
+  margin-right: 1px;
+}
+
+.header-login__sign {
+  border: 1px solid #ebeaea;
+  text-decoration: none;
+  width: 70px;
+  height: 100%;
+  background-color: #eeeeee;
+  color: inherit;
+  margin-right: 1px;
+}
+
+.header-login__bag {
+  border: 1px solid #ebeaea;
+  text-decoration: none;
+  width: 186px;
+  height: 100%;
+  background-color: #eeeeee;
+  color: inherit;
+}
+
+.header-login__bag-text {
+  color: #e70505;
+}
+
+.header-login__bag-image {
+  position: relative;
+  left: 5px;
+  top: 3px;
+}
+
+.header-bottom {
+  background-color: #000;
+}
+
+.header-bottom__nav {
+  display: flex;
+  padding: 16px 0;
+  justify-content: space-between;
+  max-width: 770px;
+}
+
+.header-bottom__link {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Myriad, sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+
+/* Hero */
+
+.hero {
+  background: url(../img/hero-bg0.jpg) center / cover;
+  padding: 70px 0px 35px 0px;
+}
+
+.hero__container {
+  width: 1100px;
+  margin: auto;
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__title {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 52px;
+  color: #fff;
+}
+
+.hero__preview {
+  position: relative;
+}
+
+.hero__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  color: #fff;
+}
+
+.hero__image > img {
+  border-radius: 50%;
+}
+
+.hero__content {
+  flex-basis: 476px;
+}
+
+.hero__prefix {
+  padding: 40px 30px;
+  position: absolute;
+  top: 380px;
+  left: 480px;
+  display: inline-flex;
+  flex-direction: column;
+  background-image: url("../img/bg-girls.png");
+  width: 184px;
+  height: 182px;
+}
+
+.hero__prefix-item {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+}
